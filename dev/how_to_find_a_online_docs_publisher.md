@@ -33,9 +33,10 @@ npm run docs:dev
 - 域名解析
 	- 直接根据vercel的讲解解析就好
 	- 不需在GitHub上额外设置 
-- 成功了！
-- #个人品牌/个人网站/GIStudy  
+- #个人品牌/个人网站/GIStudy  （这个tag是obsidian的tag）
 
 ## 参考
-- https://blog.csdn.net/AdminGuan/article/details/127620994
-- 美化  [Vuepress+Vercel 搭建个人站点 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359899236)
+> - https://blog.csdn.net/AdminGuan/article/details/127620994
+> - 美化  [Vuepress+Vercel 搭建个人站点 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359899236)
+> - https://juejin.cn/post/7164276166084263972
+> - https://blog.csdn.net/ox4f5da2/article/details/128992515
