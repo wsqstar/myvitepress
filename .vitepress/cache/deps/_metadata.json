@@ -1,37 +1,46 @@
 {
-  "hash": "1ee99cc2",
+  "hash": "1ae43c41",
   "configHash": "d9888ca8",
-  "lockfileHash": "71cbef54",
-  "browserHash": "7b4b1269",
+  "lockfileHash": "1daa79b3",
+  "browserHash": "0b721d9d",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "ae51d838",
+      "fileHash": "e357e5e9",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "212f6a13",
+      "fileHash": "b9b89e64",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "4aa2b85f",
+      "fileHash": "9b9e6c91",
       "needsInterop": false
     },
     "vitepress-plugin-google-analytics": {
       "src": "../../../node_modules/vitepress-plugin-google-analytics/dist/index.mjs",
       "file": "vitepress-plugin-google-analytics.js",
-      "fileHash": "94db1f04",
+      "fileHash": "4dfb8ff5",
+      "needsInterop": false
+    },
+    "vitepress-plugin-comment-with-giscus": {
+      "src": "../../../node_modules/vitepress-plugin-comment-with-giscus/lib/giscus.js",
+      "file": "vitepress-plugin-comment-with-giscus.js",
+      "fileHash": "261ba085",
       "needsInterop": false
     }
   },
   "chunks": {
     "chunk-Z6B2QTD3": {
       "file": "chunk-Z6B2QTD3.js"
+    },
+    "giscus-aTimukGI-JLMKWH2E": {
+      "file": "giscus-aTimukGI-JLMKWH2E.js"
     }
   }
 }

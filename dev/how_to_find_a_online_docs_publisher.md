@@ -46,3 +46,6 @@ $R^2$
 > - https://blog.csdn.net/ox4f5da2/article/details/128992515
 > - https://vercel.com/ 网站托管真的好用！
 > - https://vitepress.dev/guide/markdown#math-equations 数学拓展
+> - https://vitepress.yiov.top/plugin.html 很棒的插件介绍
+> > - 有一个非常好的导航 https://vitepress.yiov.top/nav/  
+> 
