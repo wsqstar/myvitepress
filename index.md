@@ -18,8 +18,8 @@ hero:
       link: https://nav.1314.io/?site=main
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 快速工具栏
+    details: 向你推荐了很多常用工具
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature C

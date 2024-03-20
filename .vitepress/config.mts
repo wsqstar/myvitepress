@@ -1,5 +1,4 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "GIStudy",
@@ -8,7 +7,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'VitePress Examples', link: '/markdown-examples' }
+      { text: 'GIS教程', link: '/gis/index' },
+      {text:'Kimi',link:'https://kimi.moonshot.cn/'},
     ],
 
     sidebar: [
@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: '介绍', link: '/rl/index' },
           { text: '强化你的强化学习', link: 'https://wsqstar.github.io/reinforceyourRL' },
+          { text: '深度强化学习', link: '/rl/DQN' }
         ]
       },
       {
@@ -39,7 +40,9 @@ export default defineConfig({
       {
         text: '推荐',
         items: [
-          { text: 'zetatechs', link: 'https://api.zetatechs.com/register?aff=hiqf' }
+          { text: 'zetatechs-GPT', link: 'https://api.zetatechs.com/register?aff=hiqf' },
+          { text: '关于', link: 'README' }
+
         ]
       }
     ],
@@ -47,6 +50,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/wsqstar/myvitepress' },
       { icon: 'twitter', link: 'https://twitter.com/wangshiqi1998' }
-    ]
+    ],
+
+  },
+  markdown: {
+    math: true
   }
 })
