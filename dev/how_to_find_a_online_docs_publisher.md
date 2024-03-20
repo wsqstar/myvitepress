@@ -40,3 +40,4 @@ npm run docs:dev
 > - 美化  [Vuepress+Vercel 搭建个人站点 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359899236)
 > - https://juejin.cn/post/7164276166084263972
 > - https://blog.csdn.net/ox4f5da2/article/details/128992515
+> - https://vercel.com/ 网站托管真的好用！
