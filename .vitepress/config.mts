@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "GIStudy",
   description: "GIStudy, Study GIS",
-  base: '/GIStudy/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
