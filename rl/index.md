@@ -13,3 +13,7 @@
 
 Richard Sutton 和他的老师 Andrew Barto 合著的 Reinforcement Learning: An Introduction1是强化学习领域的“圣经”
 
+## 网络教程推荐
+- 强化学习导论 https://rl.qiwihui.com/zh-cn/latest/
+- 深度强化学习 Spinning Up 项目中文版 https://spinningup.qiwihui.com/zh-cn/latest/
+- 
