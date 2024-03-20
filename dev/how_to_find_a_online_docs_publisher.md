@@ -48,4 +48,6 @@ $R^2$
 > - https://vitepress.dev/guide/markdown#math-equations 数学拓展
 > - https://vitepress.yiov.top/plugin.html 很棒的插件介绍
 > > - 有一个非常好的导航 https://vitepress.yiov.top/nav/  
+> 聊天拓展
+> - https://jr-y-web.github.io/web/skill/vitepressGitalk.html
 > 
