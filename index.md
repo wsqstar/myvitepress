@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "GIStudy"
   text: "GIStudy, Study GIS"
-  tagline: My great project tagline
+  tagline: 一起来学GIS！
   actions:
     - theme: brand
       text: 关于
