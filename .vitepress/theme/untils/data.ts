@@ -8,7 +8,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://caniuse.com/img/favicon-128.png',
         title: 'Can I use',
         badge: {
-          text: '茂神牛批',
+          text: '测试badge',
           type: 'info',
         },
         desc: '前端 API 兼容性查询',
@@ -18,7 +18,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://tinypng.com/images/apple-touch-icon.png',
         title: 'TinyPNG',
         badge: {
-          text: '茂神牛批',
+          text: '测试badge',
           type: 'tip',
         },
         desc: '在线图片压缩工具',
@@ -28,7 +28,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://devtool.tech/logo.svg',
         title: '开发者武器库',
         badge: {
-          text: '茂神牛批',
+          text: '测试badge',
           type: 'warning',
         },
         desc: '开发者武器库，做开发者最专业最好用的专业工具箱',
@@ -38,7 +38,7 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://tool.lu/favicon.ico',
         title: '在线工具',
         badge: {
-          text: '茂神牛批',
+          text: '测试badge',
           type: 'danger',
         },
         desc: '开发人员的工具箱',
