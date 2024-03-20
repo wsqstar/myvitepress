@@ -48,7 +48,7 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/json-cn.ico',
         title: 'Json 中文网',
         badge: {
-          text: '请给茂茂点点小星星哦',
+          text: '测试',
           type: 'info',
         },
         desc: 'JSON 在线解析及格式化验证',
