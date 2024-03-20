@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: 网站导航
+      link: /nav
 
 features:
   - title: Feature A
