@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/wsqstar' },
+      { icon: 'github', link: 'https://github.com/wsqstar/myvitepress' },
       {icon:'twitter', link:'https://twitter.com/wangshiqi1998'}
     ]
   }
