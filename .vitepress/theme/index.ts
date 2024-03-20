@@ -3,6 +3,7 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import googleAnalytics from 'vitepress-plugin-google-analytics'
 
 export default {
   extends: DefaultTheme,
@@ -13,5 +14,8 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // ...
+    googleAnalytics({
+      id: 'G-6WB1V46D8F', //跟踪ID，在analytics.google.com注册即可
+    })
   }
 } satisfies Theme
