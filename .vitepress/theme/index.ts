@@ -27,7 +27,7 @@ export default {
 
     // giscus配置
     giscusTalk({
-      repo: '/wsqstar/myvitepress', //仓库
+      repo: 'wsqstar/myvitepress', //仓库
       repoId: 'R_kgDOLi0Baw', //仓库ID
       category: 'Announcements', // 讨论分类
       categoryId: 'DIC_kwDOLi0Ba84CeG4j', //讨论分类ID
