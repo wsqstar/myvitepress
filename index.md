@@ -15,7 +15,7 @@ hero:
       link: /api-examples
     - theme: alt
       text: 网站导航
-      link: /nav
+      link: https://nav.1314.io/?site=main
 
 features:
   - title: Feature A
