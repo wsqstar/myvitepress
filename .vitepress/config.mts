@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'VitePress Examples', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -17,6 +17,26 @@ export default defineConfig({
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
+        ]
+      },
+      {
+        text: '强化学习',
+        items: [
+          { text: '介绍', link: '/rl/index' },
+          {text:'强化你的强化学习',link: 'https://wsqstar.github.io/reinforceyourRL'},
+        ]
+      },
+      {
+        text: 'GIS',
+        items: [
+          { text: '介绍', link: '/gis/index' },
+          { text: 'GISphere留学指南', link: 'https://gisphere.info/school/zh' },
+        ]
+      },
+      {
+        text: '推荐',
+        items: [
+          { text: 'zetatechs', link: 'https://api.zetatechs.com/register?aff=hiqf' }
         ]
       }
     ],
