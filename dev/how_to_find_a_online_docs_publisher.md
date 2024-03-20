@@ -47,7 +47,7 @@ $R^2$
 > - https://vercel.com/ 网站托管真的好用！
 > - https://vitepress.dev/guide/markdown#math-equations 数学拓展
 > - https://vitepress.yiov.top/plugin.html 很棒的插件介绍
-> > - 有一个非常好的导航 https://vitepress.yiov.top/nav/  
+> > - 有一个非常好的导航 https://vitepress.yiov.top/nav/  已经实现啦！
 > 聊天拓展
 > - https://jr-y-web.github.io/web/skill/vitepressGitalk.html
-> 
+> https://vuepress.yiov.top/guide/docsearch.html#%E7%88%AC%E5%8F%96%E6%95%B0%E6%8D%AE 搜索功能的实现

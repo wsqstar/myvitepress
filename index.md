@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: 网站导航
       link: https://nav.1314.io/?site=main
+    - theme: alt
+      text: 网站导航新版
+      link: /nav/index
 
 features:
   - title: 快速工具栏

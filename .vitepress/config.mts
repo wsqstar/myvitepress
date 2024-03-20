@@ -25,6 +25,8 @@ export default defineConfig({
         items: [
           { text: '介绍', link: '/gis/index' },
           { text: 'GISphere留学指南', link: 'https://gisphere.info/school/zh' },
+          { text: '关注的项目', link: '/gis/projects' },
+
         ]
       },
       {

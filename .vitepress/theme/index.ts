@@ -6,19 +6,28 @@ import './style.css'
 import googleAnalytics from 'vitepress-plugin-google-analytics'
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
+import MNavLinks from './components/MNavLinks.vue'
 
 export default {
   extends: DefaultTheme,
   Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
+    const props: Record<string, any> = {}
+    // 获取 frontmatter
+    const { frontmatter } = useData()
+
+    /* 添加自定义 class */
+    if (frontmatter.value?.layoutClass) {
+      props.class = frontmatter.value.layoutClass
+    }
+    return h(DefaultTheme.Layout, props)
   },
   enhanceApp({ app, router, siteData }) {
     // ...
     googleAnalytics({
       id: 'G-6WB1V46D8F', //跟踪ID，在analytics.google.com注册即可
-    })
+    }),
+    // 注册组件
+    app.component('MNavLinks' , MNavLinks)
   },
   setup() {
     // Get frontmatter and route
