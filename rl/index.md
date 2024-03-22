@@ -14,4 +14,5 @@ Richard Sutton 和他的老师 Andrew Barto 合著的 Reinforcement Learning: An
 ## 网络教程推荐
 - 强化学习导论 https://rl.qiwihui.com/zh-cn/latest/
 - 深度强化学习 Spinning Up 项目中文版 https://spinningup.qiwihui.com/zh-cn/latest/
+- hugging face 的blog https://huggingface.co/blog/deep-rl-intro
 - 

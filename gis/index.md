@@ -7,6 +7,8 @@
 :::
 
 
+目前有[地理加权回归](/gis/gwr)的整理。
+
 
 # 参考
 > - https://zhuanlan.zhihu.com/p/97461870
