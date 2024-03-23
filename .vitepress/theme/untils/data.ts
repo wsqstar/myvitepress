@@ -57,11 +57,15 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '站长推荐',
+    title: '站长常用',
     items: [
       {
         title: 'LifeOS-一个obsidian插件',
         link: 'https://obsidian-life-os.netlify.app/zh'
+      },
+      {
+        title:'数学神器WolframAlpha',
+        link:'https://www.wolframalpha.com/'
       }
     ]
   },
