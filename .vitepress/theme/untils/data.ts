@@ -57,6 +57,15 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: '站长推荐',
+    items: [
+      {
+        title: 'LifeOS-一个obsidian插件',
+        link: 'https://obsidian-life-os.netlify.app/zh'
+      }
+    ]
+  },
+  {
     title: 'AI 导航',
     items: [
       {
