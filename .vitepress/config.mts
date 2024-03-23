@@ -1,14 +1,68 @@
 import { defineConfig } from 'vitepress'
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "GIStudy",
   description: "GIStudy, Study GIS",
   themeConfig: {
+    //Algolia搜索
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'N7N6JKLERR',
+        apiKey: 'b49d86b14fc3dc576544cb814f5ecdff',
+        indexName: 'gistudy',
+        locales: {
+          zh: {
+            placeholder: '搜索文档',
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                searchBox: {
+                  resetButtonTitle: '清除查询条件',
+                  resetButtonAriaLabel: '清除查询条件',
+                  cancelButtonText: '取消',
+                  cancelButtonAriaLabel: '取消'
+                },
+                startScreen: {
+                  recentSearchesTitle: '搜索历史',
+                  noRecentSearchesText: '没有搜索历史',
+                  saveRecentSearchButtonTitle: '保存至搜索历史',
+                  removeRecentSearchButtonTitle: '从搜索历史中移除',
+                  favoriteSearchesTitle: '收藏',
+                  removeFavoriteSearchButtonTitle: '从收藏中移除'
+                },
+                errorScreen: {
+                  titleText: '无法获取结果',
+                  helpText: '你可能需要检查你的网络连接'
+                },
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换',
+                  closeText: '关闭',
+                  searchByText: '搜索提供者'
+                },
+                noResultsScreen: {
+                  noResultsText: '无法找到相关结果',
+                  suggestedQueryText: '你可以尝试查询',
+                  reportMissingResultsText: '你认为该查询应该有结果？',
+                  reportMissingResultsLinkText: '点击反馈'
+                },
+              },
+            },
+          },
+        },
+      },
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       { text: 'GIS教程', link: '/gis/index' },
-      {text:'Kimi',link:'https://kimi.moonshot.cn/'},
+      { text: 'Kimi', link: 'https://kimi.moonshot.cn/' },
     ],
 
     sidebar: [
@@ -37,7 +91,7 @@ export default defineConfig({
           { text: 'Python教程', link: '/dev/suggestion_python_study' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' },
-          {text:'我的产品使用记录',link:'dev/my_thoughts_on_applications'}
+          { text: '我的产品使用记录', link: 'dev/my_thoughts_on_applications' }
         ]
       },
       {
@@ -45,7 +99,7 @@ export default defineConfig({
         items: [
           { text: 'zetatechs-GPT', link: 'https://api.zetatechs.com/register?aff=hiqf' },
           { text: '关于', link: 'README' },
-          {text:'NAV',link:'/nav'}
+          { text: 'NAV', link: '/nav' }
 
         ]
       }

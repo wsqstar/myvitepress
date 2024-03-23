@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@mdit-vue/shared": "^2.0.0",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.19",
     "markdown-it-mathjax3": "^4.3.2",
     "sass": "^1.72.0",
     "vitepress": "^1.0.0-rc.45",
