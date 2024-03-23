@@ -44,7 +44,8 @@ export default defineConfig({
         text: '推荐',
         items: [
           { text: 'zetatechs-GPT', link: 'https://api.zetatechs.com/register?aff=hiqf' },
-          { text: '关于', link: 'README' }
+          { text: '关于', link: 'README' },
+          {text:'NAV',link:'/nav'}
 
         ]
       }
