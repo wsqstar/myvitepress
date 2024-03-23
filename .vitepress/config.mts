@@ -36,7 +36,8 @@ export default defineConfig({
           { text: 'Vitepress教程', link: '/dev/how_to_find_a_online_docs_publisher' },
           { text: 'Python教程', link: '/dev/suggestion_python_study' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          {text:'我的产品使用记录',link:'dev/my_thoughts_on_applications'}
         ]
       },
       {
