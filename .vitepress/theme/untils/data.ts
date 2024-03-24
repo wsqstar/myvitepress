@@ -95,7 +95,7 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
-    title: '茂茂的站点导航',
+    title: '前端站点导航',
     items: [
       {
         icon: '/logo.png',
@@ -587,6 +587,17 @@ export const NAV_DATA: NavData[] = [
         icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.362a8eac.png',
         desc: '中文互联网高质量的问答社区和创作者聚集的原创内容平台',
         link: 'https://juejin.cn'
+      }
+    ]
+  },
+  
+  {
+    title: '开发大佬',
+    items: [
+      {
+        title: '茂茂-前端',
+        // desc: '中国领先的在线视频媒体平台，海量高清视频在线观看',
+        link: 'https://notes.fe-mm.com/'
       }
     ]
   },
