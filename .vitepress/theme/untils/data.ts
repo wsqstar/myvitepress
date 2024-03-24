@@ -66,6 +66,10 @@ export const NAV_DATA: NavData[] = [
       {
         title:'数学神器WolframAlpha',
         link:'https://www.wolframalpha.com/'
+      },
+      {
+        title:'深度强化学习实验室',
+        link:'http://www.deeprlhub.com/'
       }
     ]
   },
