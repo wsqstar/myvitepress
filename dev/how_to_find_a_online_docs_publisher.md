@@ -55,6 +55,6 @@ $R^2$
 
 
 # 其他发布在线文档的方式
-## GIThub action
+## GitHub action
 - https://github.com/johnnian/Blog/issues/74 
   - 一个很绝妙的方法，站长还没有实践
