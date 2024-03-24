@@ -51,3 +51,10 @@ $R^2$
 > 聊天拓展
 > - https://jr-y-web.github.io/web/skill/vitepressGitalk.html
 > https://vuepress.yiov.top/guide/docsearch.html#%E7%88%AC%E5%8F%96%E6%95%B0%E6%8D%AE 搜索功能的实现
+>
+
+
+# 其他发布在线文档的方式
+## GIThub action
+- https://github.com/johnnian/Blog/issues/74 
+  - 一个很绝妙的方法，站长还没有实践
