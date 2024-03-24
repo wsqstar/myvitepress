@@ -596,7 +596,7 @@ export const NAV_DATA: NavData[] = [
     items: [
       {
         title: '茂茂-前端',
-        // desc: '中国领先的在线视频媒体平台，海量高清视频在线观看',
+        desc: '本站建立时的教程参考了ta的站点',
         link: 'https://notes.fe-mm.com/'
       }
     ]
