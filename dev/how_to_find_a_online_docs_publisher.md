@@ -44,14 +44,13 @@ $R^2$
 > - 美化  [Vuepress+Vercel 搭建个人站点 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359899236)
 > - https://juejin.cn/post/7164276166084263972
 > - https://blog.csdn.net/ox4f5da2/article/details/128992515
-> - https://vercel.com/ 网站托管真的好用！
-> - https://vitepress.dev/guide/markdown#math-equations 数学拓展
-> - https://vitepress.yiov.top/plugin.html 很棒的插件介绍
+> - 网站托管真的好用！ https://vercel.com/ 
+> - 数学拓展插件 https://vitepress.dev/guide/markdown#math-equations 
+> - 很棒的插件介绍 https://vitepress.yiov.top/plugin.html 
 > > - 有一个非常好的导航 https://vitepress.yiov.top/nav/  已经实现啦！
 > 聊天拓展
-> - https://jr-y-web.github.io/web/skill/vitepressGitalk.html
-> https://vuepress.yiov.top/guide/docsearch.html#%E7%88%AC%E5%8F%96%E6%95%B0%E6%8D%AE 搜索功能的实现
->
+> - https://jr-y-web.github.io/web/skill/vitepressGitalk.html （已经实现）
+> 搜索功能 https://vuepress.yiov.top/guide/docsearch.html#%E7%88%AC%E5%8F%96%E6%95%B0%E6%8D%AE 搜索功能的实现 （2024年3月24日已经实现）
 
 
 # 其他发布在线文档的方式
