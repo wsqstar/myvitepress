@@ -70,6 +70,10 @@ export const NAV_DATA: NavData[] = [
       {
         title:'深度强化学习实验室',
         link:'http://www.deeprlhub.com/'
+      },
+      {
+        title:'google analytics',
+        link:'https://analytics.google.com/analytics/web/?pli=1'
       }
     ]
   },
