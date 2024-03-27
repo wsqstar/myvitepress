@@ -79,6 +79,10 @@ export const NAV_DATA: NavData[] = [
       {
         title: '文献引用可视化',
         link: 'https://beta.app.litmaps.com/'
+      },
+      {
+        title:'GoogleScholar',
+        link:'https://scholar.google.com/'
       }
     ]
   },
