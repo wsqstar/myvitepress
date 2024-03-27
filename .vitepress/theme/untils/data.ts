@@ -74,6 +74,15 @@ export const NAV_DATA: NavData[] = [
     ]
   },
   {
+    title: '科研工具',
+    items: [
+      {
+        title: '文献引用可视化',
+        link: 'https://beta.app.litmaps.com/'
+      }
+    ]
+  },
+  {
     title: 'AI 导航',
     items: [
       {
