@@ -116,5 +116,8 @@ export default defineConfig({
   },
   sitemap: {
     hostname: 'https://docs.gistudy.net'
-  }
+  },
+  head:[
+    ['meta', { name: 'google-site-verification', content: 'Af8UU5z2Ja3SCGuLZHB_-FL20oWWcDqDu4U13ko_esI' }]
+  ]
 })
