@@ -74,6 +74,10 @@ export const NAV_DATA: NavData[] = [
       {
         title:'google analytics',
         link:'https://analytics.google.com/analytics/web/?pli=1'
+      },
+      {
+        title:'google search console',
+        link:'https://search.google.com/search-console'
       }
     ]
   },
