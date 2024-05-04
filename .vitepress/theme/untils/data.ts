@@ -5,6 +5,16 @@ export const NAV_DATA: NavData[] = [
     title: '常用工具',
     items: [
       {
+        // icon: 'https://caniuse.com/img/favicon-128.png',
+        title: '公众号Markdown编辑器',
+        badge: {
+          text: 'GIStudy部署',
+          type: 'tip',
+        },
+        desc: '将Markdown转为公众号排版',
+        link: 'https://wechat-mdeditor.gistudy.net/'
+      },
+      {
         icon: 'https://caniuse.com/img/favicon-128.png',
         title: 'Can I use',
         badge: {
