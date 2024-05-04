@@ -119,7 +119,8 @@ export default defineConfig({
     hostname: 'https://docs.gistudy.net'
   },
   head:[
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo128.png' }],
     ['meta', { name: 'google-site-verification', content: 'Af8UU5z2Ja3SCGuLZHB_-FL20oWWcDqDu4U13ko_esI' }]
   ]
 })
