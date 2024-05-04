@@ -6,7 +6,7 @@ export default defineConfig({
   title: "GIStudy",
   description: "GIStudy, Study GIS",
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo128.png',
     //Algolia搜索
     search: {
       provider: 'algolia',
