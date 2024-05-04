@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: 网站导航新版
       link: /nav/index
+    - theme: brand
+      text: Markdown转公众号排版
+      link: https://wechat-mdeditor.gistudy.net/
 
 features:
   - title: 快速工具栏
