@@ -5,7 +5,7 @@ export const NAV_DATA: NavData[] = [
     title: '常用工具',
     items: [
       {
-        // icon: 'https://caniuse.com/img/favicon-128.png',
+        icon: 'https://wechat-mdeditor.gistudy.net/assets/images/favicon.png',
         title: '公众号Markdown编辑器',
         badge: {
           text: 'GIStudy部署',
