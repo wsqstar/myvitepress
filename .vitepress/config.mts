@@ -6,7 +6,7 @@ export default defineConfig({
   title: "GIStudy",
   description: "GIStudy, Study GIS",
   themeConfig: {
-    logo: '/public/logo.png',
+    logo: '/logo.png',
     //Algolia搜索
     search: {
       provider: 'algolia',
@@ -119,6 +119,7 @@ export default defineConfig({
     hostname: 'https://docs.gistudy.net'
   },
   head:[
-    ['meta', { name: 'google-site-verification', content: 'Af8UU5z2Ja3SCGuLZHB_-FL20oWWcDqDu4U13ko_esI' }]
+    ['meta', { name: 'google-site-verification', content: 'Af8UU5z2Ja3SCGuLZHB_-FL20oWWcDqDu4U13ko_esI' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ]
 })
