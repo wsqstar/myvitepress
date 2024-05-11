@@ -100,8 +100,9 @@ export default defineConfig({
         items: [
           { text: 'zetatechs-GPT', link: 'https://api.zetatechs.com/register?aff=hiqf' },
           { text: '关于', link: 'README' },
-          { text: 'NAV', link: '/nav/' }
-
+          { text: '网址导航', link: '/nav/' },
+          { text: 'GIS网址导航', link: 'https://nav.dippermap.com' },
+          { text: '推荐的应用', link: '/ref/index' }
         ]
       }
     ],

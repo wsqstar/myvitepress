@@ -1,3 +1,9 @@
+---
+prev: false
+next: 
+    text: 'DQN'
+    link: '/rl/DQN'
+---
 # 强化学习入门
 
 ::: info
