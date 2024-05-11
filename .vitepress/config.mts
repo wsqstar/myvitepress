@@ -81,7 +81,7 @@ export default defineConfig({
           { text: '介绍', link: '/gis/index' },
           { text: 'GISphere留学指南', link: 'https://gisphere.info/school/zh' },
           { text: '关注的项目', link: '/gis/projects' },
-
+          { text: 'GIS001-GIS入门课', link: '/gis/GIS001/index' },
         ]
       },
       {
