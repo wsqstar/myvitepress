@@ -1,3 +1,11 @@
+---
+prev: 
+    text: 'GIS学习'
+    link: '/gis/index'
+next: 
+    text: '地球'
+    link: '/gis/GIS001/earth'
+---
 # GIS001 介绍
 本文将开始介绍GIS的基础知识。
 
