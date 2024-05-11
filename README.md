@@ -19,5 +19,5 @@ next:
 ## 感谢支持~
 <div style="display: flex; justify-content: space-around;">
   <img src="https://docs.gistudy.net/thanks/IMG_9512.jpeg" alt="alt text" style="max-width: 50%; height: auto;">
-  <img src="https://docs.gistudy.net/thanks/MG_9514.jpeg" alt="alt text" style="max-width: 50%; height: auto;">
+  <img src="https://docs.gistudy.net/thanks/IMG_9514.jpeg" alt="alt text" style="max-width: 50%; height: auto;">
 </div>
