@@ -14,8 +14,8 @@ hero:
       text: 进入正文
       link: /gis/index
     - theme: alt
-      text: 网站导航
-      link: https://nav.1314.io/?site=main
+      text: GIS专用网址导航
+      link: https://nav.dippermap.com/?site=main
     - theme: alt
       text: 网站导航新版
       link: /nav/index
