@@ -13,8 +13,8 @@ next:
 > 
 > 
 > 搭建参考：
-> - https://vitepress.yiov.top/nav/
-> - https://docs.gistudy.net/dev/how_to_find_a_online_docs_publisher.html
+> - [VitePress搭建个人导航](https://vitepress.yiov.top/nav/)
+> - [如何选择自己的在线文档发布器](https://docs.gistudy.net/dev/how_to_find_a_online_docs_publisher.html)
 
 ## 感谢支持~
 <div style="display: flex; justify-content: space-around;">
