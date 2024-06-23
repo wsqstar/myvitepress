@@ -1,7 +1,8 @@
 # 关注的项目
 
 
-
+## GIS知识
+- UCGIS的知识图谱，非常适合了解GIS知识： https://www.ucgis.org/gis-t-body-of-knowledge
 
 ## 环境
 
