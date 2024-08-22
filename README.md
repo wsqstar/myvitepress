@@ -21,3 +21,5 @@ next:
   <img src="/thanks/IMG_9512.jpeg" alt="alt text" style="max-width: 50%; height: auto;">
   <img src="/thanks/IMG_9514.jpeg" alt="alt text" style="max-width: 50%; height: auto;">
 </div>
+
+<!-- 这里虽然markdown显示不出来 但是网页上是可以的，因为网页的路径是/public/thanks -->
