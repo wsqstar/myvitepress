@@ -81,7 +81,7 @@ export default defineConfig({
           { text: '介绍', link: '/gis/index' },
           { text: 'GISphere留学指南', link: 'https://gisphere.info/school/zh' },
           { text: '关注的项目', link: '/gis/projects' },
-
+          { text: 'GIS001-GIS入门课', link: '/gis/GIS001/index' },
         ]
       },
       {
@@ -97,7 +97,6 @@ export default defineConfig({
           { text: 'Vitepress教程', link: '/dev/how_to_find_a_online_docs_publisher' },
           { text: 'Python教程', link: '/dev/suggestion_python_study' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
           { text: '我的产品使用记录', link: 'dev/my_thoughts_on_applications' }
         ]
       },
@@ -106,8 +105,9 @@ export default defineConfig({
         items: [
           { text: 'zetatechs-GPT', link: 'https://api.zetatechs.com/register?aff=hiqf' },
           { text: '关于', link: 'README' },
-          { text: 'NAV', link: '/nav/' }
-
+          { text: '网址导航', link: '/nav/' },
+          { text: 'GIS网址导航', link: 'https://nav.dippermap.com' },
+          { text: '推荐的应用', link: '/ref/index' }
         ]
       }
     ],

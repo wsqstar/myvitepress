@@ -39,6 +39,17 @@ npm run docs:dev
 在配置好之后，可以尝试更多，推荐使用数学拓展。
 $R^2$
 
+## 迁移后部署
+迁移仓库后，在git clone之后可以使用
+```bash
+npm install
+```
+实现node modules的重新加载。
+
+然后可以尝试下面代码，看看效果。
+```bash
+npm run docs:dev
+```
 ## 参考
 > - https://blog.csdn.net/AdminGuan/article/details/127620994
 > - 美化  [Vuepress+Vercel 搭建个人站点 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/359899236)

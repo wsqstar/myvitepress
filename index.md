@@ -14,8 +14,8 @@ hero:
       text: 进入正文
       link: /gis/index
     - theme: alt
-      text: 网站导航
-      link: https://nav.1314.io/?site=main
+      text: GIS专用网址导航
+      link: https://nav.dippermap.com/?site=main
     - theme: alt
       text: 网站导航新版
       link: /nav/index
@@ -26,9 +26,8 @@ hero:
 features:
   - title: 快速工具栏
     details: 向你推荐了很多常用工具
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 专属教程
+    details: 有精心编写的GIS入门教程
+
 ---
 
