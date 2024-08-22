@@ -88,6 +88,7 @@ export default defineConfig({
         text: 'Math',
         items: [
           { text: '介绍', link: '/math/index' },
+          { text: '矩阵', link: '/math/matrix' },
         ]
       },
       {
