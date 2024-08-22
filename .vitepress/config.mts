@@ -85,6 +85,12 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Math',
+        items: [
+          { text: '介绍', link: '/math/index' },
+        ]
+      },
+      {
         text: 'Dev',
         items: [
           { text: '开发环境选择', link: '/dev/choice_on_wsl_or_colab' },
