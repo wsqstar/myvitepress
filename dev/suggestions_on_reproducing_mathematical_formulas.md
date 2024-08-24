@@ -5,4 +5,5 @@
 3. 报错3：数量级相似，但是结果不一致。可以梳理整个数据的流程，从源头往结果找，查看几个数据对应的头即可。
    1. 尤其是注意，python和R语言的reshape不同。**按照默认：python是按照行填充，R语言是按照列填充。** 两者均有参数可以修改填充方式。
    2. 在Vstudio上，有Data Wrangler插件，可以很好的检查Dataframe的内容。十分推荐。
-![alt text](pics/587cf2b8dd43954604d22d2941508cd.png)
+   
+![Data Wrangler Plug-in](pics/587cf2b8dd43954604d22d2941508cd.png)
