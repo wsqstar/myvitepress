@@ -92,7 +92,7 @@ od矩阵的存储有两种形式：
 这些工具和软件各有其特点和适用场景，选择合适的工具取决于你的具体需求和数据格式。例如，如果你需要处理大规模的道路网络数据，OSRM和pgRouting可能是更好的选择；如果你更倾向于使用Python进行分析，NetworkX和igraph可能更适合你。
 
 ## QGIS 计算OD矩阵
-![alt text](image.png)
+![alt text](./attachments/od_martix.png)
 
 在QGIS中计算OD（Origin-Destination）矩阵可以通过使用插件来实现。以下是一个详细的教程，介绍如何使用QGIS和[QNEAT3](https://root676.github.io/OdMatrixAlgs)插件来计算OD矩阵。
 
