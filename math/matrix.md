@@ -206,3 +206,105 @@ $$
 - **Cholesky分解**和**正定矩阵**关系紧密，仅适用于正定矩阵；  
 - **特征值分解**与**谱分解**是针对实对称矩阵的特定分解方法；  
 - **奇异值分解（SVD）**适用于任意矩阵，具有更广泛的应用场景。
+
+
+
+## 特征值和特征向量
+
+特征值和特征向量是通过求解矩阵的特征方程得到的，以下是推导和求解的完整过程：
+
+---
+
+### **1. 特征值和特征向量的定义**  
+对于一个方阵 $A$（维度 $n \times n$），若存在标量 $\lambda$ 和非零向量 $v$，使得满足：  
+$$
+A v = \lambda v
+$$
+则称 $\lambda$ 为矩阵 $A$ 的特征值，$v$ 为对应的特征向量。  
+
+---
+
+### **2. 推导特征值方程**  
+- 从定义 $A v = \lambda v$ 出发，可以将其改写为：
+  $$
+  A v - \lambda I v = 0
+  $$
+  其中 $I$ 是 $n \times n$ 的单位矩阵。  
+- 提取公共因子 $v$，得到：
+  $$
+  (A - \lambda I)v = 0
+  $$
+- 为了使非零向量 $v$ 存在，要求矩阵 $(A - \lambda I)$ 不可逆，即：
+  $$
+  \det(A - \lambda I) = 0
+  $$
+  这就是 **特征方程**，其解 $\lambda$ 是矩阵的特征值。
+
+---
+
+### **3. 求解特征值**  
+1. **构造特征方程**：  
+   - 计算矩阵 $(A - \lambda I)$。
+   - 展开行列式 $\det(A - \lambda I)$。
+   - 得到一个关于 $\lambda$ 的多项式方程，称为 **特征多项式**。  
+
+2. **求解特征多项式**：  
+   - 求解特征多项式的根（可以用数值方法或符号运算）。
+   - 所有的根 $\lambda_1, \lambda_2, \dots, \lambda_n$ 就是矩阵的特征值。  
+
+---
+
+### **4. 求解特征向量**  
+对于每个特征值 $\lambda$：  
+1. **代回方程 $(A - \lambda I)v = 0$**：  
+   - 将 $\lambda$ 带入 $A - \lambda I$，构造线性方程组 $(A - \lambda I)v = 0$。  
+
+2. **求解线性方程组**：  
+   - 求解上述方程组，通常使用行简化（如高斯消元法）求出非零解。  
+   - 解空间的非零向量 $v$ 即为对应特征值的特征向量（通常取归一化形式）。
+
+---
+
+### **5. 示例**  
+设矩阵 $A = \begin{bmatrix} 4 & 1 \\ 2 & 3 \end{bmatrix}$：  
+1. **构造特征方程**：  
+   $$
+   A - \lambda I = \begin{bmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{bmatrix}
+   $$
+   $$
+   \det(A - \lambda I) = \det\begin{bmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{bmatrix}
+   = (4 - \lambda)(3 - \lambda) - 2 \cdot 1
+   $$
+   $$
+   \det(A - \lambda I) = \lambda^2 - 7\lambda + 10
+   $$
+   特征方程为：  
+   $$
+   \lambda^2 - 7\lambda + 10 = 0
+   $$
+
+2. **求解特征值**：  
+   解方程 $\lambda^2 - 7\lambda + 10 = 0$：  
+   $$
+   \lambda_1 = 5, \quad \lambda_2 = 2
+   $$
+
+3. **求解特征向量**：  
+   - 对 $\lambda_1 = 5$，解 $(A - 5I)v = 0$：  
+     $$
+     A - 5I = \begin{bmatrix} -1 & 1 \\ 2 & -2 \end{bmatrix}
+     $$
+     解 $\begin{bmatrix} -1 & 1 \\ 2 & -2 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0$，得特征向量为 $v_1 = \begin{bmatrix} 1 \\ 1 \end{bmatrix}$。  
+
+   - 对 $\lambda_2 = 2$，解 $(A - 2I)v = 0$：  
+     $$
+     A - 2I = \begin{bmatrix} 2 & 1 \\ 2 & 1 \end{bmatrix}
+     $$
+     解 $\begin{bmatrix} 2 & 1 \\ 2 & 1 \end{bmatrix} \begin{bmatrix} x_1 \\ x_2 \end{bmatrix} = 0$，得特征向量为 $v_2 = \begin{bmatrix} -1 \\ 2 \end{bmatrix}$。  
+
+---
+
+### **总结：求解步骤**
+1. 构造特征方程 $\det(A - \lambda I) = 0$。
+2. 解特征多项式，得到特征值 $\lambda$。
+3. 将每个特征值 $\lambda$ 带入 $(A - \lambda I)v = 0$，解线性方程组，求特征向量 $v$。
