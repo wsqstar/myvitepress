@@ -96,6 +96,7 @@ export default defineConfig({
         items: [
           { text: '介绍', link: '/math/index' },
           { text: '矩阵', link: '/math/matrix' },
+          { text: '向量', link: '/math/vector' },
         ]
       },
       {
