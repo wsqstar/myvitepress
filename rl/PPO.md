@@ -70,7 +70,7 @@ L_{\text{PPO}} = L_{\text{policy}} + c_1 \cdot L_{\text{value}} - c_2 \cdot L_{\
 $$
 
 #### 组成部分：
-1. **策略损失 $L_{\text{policy}}\**：
+1. **策略损失 $L_{\text{policy}}$**：
    - 对应裁剪目标函数 $L^{\text{CLIP}}(\theta)$：
      $$
      L_{\text{policy}} = \mathbb{E}_t \left[ \min \left( r_t(\theta) \hat{A}_t, \text{clip}(r_t(\theta), 1-\epsilon, 1+\epsilon) \hat{A}_t \right) \right]
